@@ -1,0 +1,13 @@
+https://www.w3schools.com/
+https://www.javatpoint.com/
+https://www.tutorialspoint.com/web_development_tutorials.htm
+http://html5index.org/index.html
+
+
+developer.mozilla.org. (s. f.). developer.mozilla.org. Recuperado 19 de enero de 2022, de https://developer.mozilla.org/en-US/docs/Web/HTML/Referencejavatpoint. (s. f.).
+ 
+javatpoint. Recuperado 19 de enero de 2022, de https://www.javatpoint.com/w3schools. (s. f.).
+
+w3schools. Recuperado 19 de enero de 2022, de https://www.w3schools.com/Web/CSS/Reference. (s. f.).
+
+Web/CSS/Reference. Recuperado 19 de enero de 2022, de https://developer.mozilla.org/en-US/docs/Web/CSS/Reference

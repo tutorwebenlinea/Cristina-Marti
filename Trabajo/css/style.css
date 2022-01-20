@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+.cabecera {
+  border-bottom: 5px solid black;
+  height: 100px;
+}
+.main_contnet .imagen {
+  width: 270px;
+  height: 200px;
+  float: right;
+  margin-left: 20px;
+}
+.main_contnet .parrafo_uno {
+  /*  padding: 15px;*/
+  text-align: justify;
+}
+.main_contnet {
+  width: 60%;
+}
+.aparte {
+  width: 40%;
+  background-color: #ff8000;
+}
+.main_contnet, .aparte {
+  float: left;
+  height: 800px;
+  padding: 25px;
+}
+.pie_pagina {
+  clear: left;
+}
+.pie_pagina {
+  border-top: 5px solid black;
+}
+main, header, aside, footer {
+  /*border: 1px solid red;*/
+}
+.cabecera .imagen {
+  width: 75px;
+  height: 75px;
+  float: right;
+}
+.aparte .imagen {
+  width: 250px;
+  height: 250px;
+}
+.pie_pagina .imagen {
+  width: 10%;
+  height: 75px;
+}
