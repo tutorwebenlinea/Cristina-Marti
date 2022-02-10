@@ -1,15 +1,36 @@
+@font-face {
+  font-family: titulotipoletra;
+  src: url(Quintessential-Regular.ttf);
+}
+@font-face {
+  font-family: textodepaguina;
+  src: url(GideonRoman-Regular.ttf);
+}
 * {
   box-sizing: border-box;
+  font-size: 18px;
+  font-family: textodepaguina;
 }
 .cuerpo {
   width: 99%;
 }
+h1, h3 {
+  font-family: titulotipoletra;
+}
+.index header h1 {
+  float: right;
+}
+.cuerpo header h1 {
+  /* Estilos para el título de la página */
+  font-size: 35px;
+}
 .index header {
   clear: both;
+  height: 100px;
 }
 .index aside, .index main {
   float: left;
-  border: 1px solid black;
+  /* border: 1px solid black;*/
   padding: 10px;
 }
 .index aside {
@@ -18,22 +39,106 @@
 .index main {
   width: 50%;
 }
-.pie_paguina {
-  clear: left;
-  padding: 10px;
-}
 .index header img {
+  width: 10%;
+  float: left;
+}
+.index footer img {
+  width: 10%;
+  float: right;
+}
+.index footer .datos {
   width: 10%;
   float: left;
 }
 .index aside img {
   width: 100%;
 }
-.index header p {
+.index header h1 {
   width: 80%;
-  float: right;
-}
-.index header {
   height: 100px;
-  border: 1px solid black;
+}
+.cuerpo footer {
+  clear: left;
+  padding: 10px;
+  border-top: 1px solid black;
+}
+.cuerpo header {
+  border-bottom: 1px solid black;
+}
+/*/////////////////////////////////*/
+
+.navegacion ul {
+  /*Lista no tendrá estilo */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*Evitar desbordamiento del texto*/
+  overflow: hidden;
+  background-color: #ffbf80;
+}
+.navegacion li {
+  float: left;
+}
+.navegacion li a, .navegacion .boton {
+  display: inline-block;
+  color: black;
+  /* Centra el texto */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navegacion li a:hover, .navegacion .desplegable:hover .boton {
+  background-color: #ffe6e6;
+}
+.navegacion li.desplegable {
+  /* Elemento en línea y a su vez en bloque, hace que se respete 
+  en ancho y se posicionan uno al lado del otro. */
+  display: inline-block;
+}
+.navegacion .contenido-desplegable {
+  /* Estara oculto con el display none */
+  display: none;
+  /* Posición absoluta para que el elemento no se corra de su lugar */
+  position: absolute;
+  background-color: #f9f9f9;
+  /* Caja contenedora no se reduce más de los que se especifica */
+  min-width: 160px;
+  /*  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
+  /* Prioridad de la visibilidad de la capa*/
+  z-index: 1;
+}
+.navegacion .contenido-desplegable a {
+  color: black;
+  background-color: #ffbf80;
+  padding: 12px 16px;
+  /* Elimina la decoración por defecto del elemento a */
+  text-decoration: none;
+  /*   Elementos  definidos en bloque  */
+  display: block;
+  text-align: left;
+}
+.navegacion .contenido-desplegable a:hover {
+  background-color: #ffe6e6;
+}
+.navegacion .desplegable:hover .contenido-desplegable {
+  /* Elemento s definidos en bloque solo cuando el raton estas sobre el  esta soobre el*/
+  display: block;
+}
+.cuerpo .navegacion {
+  margin-bottom: 15px;
+}
+.revista aside, .revista main {
+  float: left;
+  padding: 15px;
+}
+.revista main {
+  width: 75%;
+}
+.revista aside {
+  width: 25%;
+}
+.revista footer {
+  padding: 15px;
+  clear: both;
 }
